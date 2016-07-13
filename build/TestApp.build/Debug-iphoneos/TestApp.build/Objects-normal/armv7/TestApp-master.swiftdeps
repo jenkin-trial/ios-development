@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.1 clang-703.0.29)"
+options: "1147295662619c700eabfbf7d43aa614"
+build_time: [521635187, 530469000]
+inputs:
+  "/Users/pallavi.snehal/Desktop/MAC_Workspace/TestApp/TestApp/ViewController.swift": [521284106, 0]
+  "/Users/pallavi.snehal/Desktop/MAC_Workspace/TestApp/TestApp/AppDelegate.swift": [521283769, 0]
