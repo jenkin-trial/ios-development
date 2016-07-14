@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40285EB51D379BAA008EEFFD /* 518097-background-hd.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 40285EB41D379BAA008EEFFD /* 518097-background-hd.jpg */; };
+		40285EB71D379C05008EEFFD /* images.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 40285EB61D379C05008EEFFD /* images.jpeg */; };
 		40AB1C651D2FA3B900F3D1DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB1C641D2FA3B900F3D1DB /* AppDelegate.swift */; };
 		40AB1C671D2FA3B900F3D1DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40AB1C661D2FA3B900F3D1DB /* ViewController.swift */; };
 		40AB1C6A1D2FA3B900F3D1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB1C681D2FA3B900F3D1DB /* Main.storyboard */; };
@@ -15,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40285EB41D379BAA008EEFFD /* 518097-background-hd.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "518097-background-hd.jpg"; path = "../../../../Downloads/518097-background-hd.jpg"; sourceTree = "<group>"; };
+		40285EB61D379C05008EEFFD /* images.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = images.jpeg; path = ../../../../Downloads/images.jpeg; sourceTree = "<group>"; };
 		40AB1C611D2FA3B900F3D1DB /* TestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40AB1C641D2FA3B900F3D1DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		40AB1C661D2FA3B900F3D1DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +61,8 @@
 				40AB1C641D2FA3B900F3D1DB /* AppDelegate.swift */,
 				40AB1C661D2FA3B900F3D1DB /* ViewController.swift */,
 				40AB1C681D2FA3B900F3D1DB /* Main.storyboard */,
+				40285EB61D379C05008EEFFD /* images.jpeg */,
+				40285EB41D379BAA008EEFFD /* 518097-background-hd.jpg */,
 				40AB1C6B1D2FA3B900F3D1DB /* Assets.xcassets */,
 				40AB1C6D1D2FA3B900F3D1DB /* LaunchScreen.storyboard */,
 				40AB1C701D2FA3B900F3D1DB /* Info.plist */,
@@ -124,8 +130,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				40AB1C6F1D2FA3B900F3D1DB /* LaunchScreen.storyboard in Resources */,
+				40285EB71D379C05008EEFFD /* images.jpeg in Resources */,
 				40AB1C6C1D2FA3B900F3D1DB /* Assets.xcassets in Resources */,
 				40AB1C6A1D2FA3B900F3D1DB /* Main.storyboard in Resources */,
+				40285EB51D379BAA008EEFFD /* 518097-background-hd.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
