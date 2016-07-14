@@ -15,8 +15,8 @@ depends-top-level:
 - !private "UIAlertController"
 - !private "UIAlertActionStyle"
 - !private "UIAlertAction"
-- "UIViewController"
 - !private "StringLiteralType"
+- "UIViewController"
 - "ViewController"
 depends-member:
 - !private ["Ps9AnyObject", "UIAlertAction"]
