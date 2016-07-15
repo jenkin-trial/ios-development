@@ -10,14 +10,14 @@ provides-dynamic-lookup:
 - "didReceiveMemoryWarning"
 - "showMessage"
 depends-top-level:
-- !private "UIAlertControllerStyle"
 - !private "BooleanLiteralType"
+- "UIViewController"
 - !private "UIAlertController"
 - !private "UIAlertActionStyle"
-- !private "UIAlertAction"
-- !private "StringLiteralType"
-- "UIViewController"
+- !private "UIAlertControllerStyle"
 - "ViewController"
+- !private "StringLiteralType"
+- !private "UIAlertAction"
 depends-member:
 - !private ["Ps9AnyObject", "UIAlertAction"]
 - !private ["Ps9AnyObject", "UIAlertActionStyle"]

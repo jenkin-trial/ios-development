@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -10,18 +11,18 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="TestApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                        <viewControllerLayoutGuide type="top" id="NhC-bn-vjR"/>
+                        <viewControllerLayoutGuide type="bottom" id="of4-XJ-ZVR"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="LTL-Xn-HWX">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="images.jpeg" translatesAutoresizingMaskIntoConstraints="NO" id="LTL-Xn-HWX">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmC-VH-AZh">
-                                <rect key="frame" x="77" y="184" width="158" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TmC-VH-AZh">
+                                <rect key="frame" x="81" y="184" width="430" height="62"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="27"/>
                                 <state key="normal" title="Hello World">
                                     <color key="titleColor" red="1" green="0.1780211803" blue="0.33165748249999999" alpha="1" colorSpace="calibratedRGB"/>
@@ -32,11 +33,21 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TmC-VH-AZh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="61" id="8vX-8q-RlJ"/>
+                            <constraint firstItem="LTL-Xn-HWX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QV7-He-d8O"/>
+                            <constraint firstAttribute="trailing" secondItem="LTL-Xn-HWX" secondAttribute="trailing" id="WwO-pu-rTw"/>
+                            <constraint firstItem="LTL-Xn-HWX" firstAttribute="bottom" secondItem="of4-XJ-ZVR" secondAttribute="top" id="bMF-6B-lHC"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="TmC-VH-AZh" secondAttribute="trailing" constant="69" id="cDJ-ft-BbN"/>
+                            <constraint firstItem="TmC-VH-AZh" firstAttribute="top" secondItem="NhC-bn-vjR" secondAttribute="bottom" constant="164" id="d6K-Aj-JgP"/>
+                            <constraint firstItem="of4-XJ-ZVR" firstAttribute="top" secondItem="TmC-VH-AZh" secondAttribute="bottom" constant="354" id="ghk-0W-Lyx"/>
+                            <constraint firstItem="LTL-Xn-HWX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tL5-Uh-P4R"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162" y="340"/>
+            <point key="canvasLocation" x="581.25" y="359.15492957746477"/>
         </scene>
     </scenes>
     <resources>
