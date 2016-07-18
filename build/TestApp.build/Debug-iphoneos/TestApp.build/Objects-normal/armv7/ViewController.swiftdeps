@@ -7,17 +7,17 @@ provides-member:
 - ["C7TestApp14ViewController", ""]
 provides-dynamic-lookup:
 - "showMessage"
-- "viewDidLoad"
 - "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- !private "BooleanLiteralType"
-- !private "UIAlertAction"
 - !private "UIAlertController"
-- !private "UIAlertActionStyle"
 - !private "StringLiteralType"
-- "UIViewController"
+- !private "UIAlertActionStyle"
 - !private "UIAlertControllerStyle"
+- !private "BooleanLiteralType"
 - "ViewController"
+- "UIViewController"
+- !private "UIAlertAction"
 depends-member:
 - !private ["Ps9AnyObject", "UIAlertAction"]
 - !private ["Ps9AnyObject", "UIAlertActionStyle"]
