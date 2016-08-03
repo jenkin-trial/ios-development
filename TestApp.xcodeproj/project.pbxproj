@@ -14,6 +14,7 @@
 		40AB1C6A1D2FA3B900F3D1DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB1C681D2FA3B900F3D1DB /* Main.storyboard */; };
 		40AB1C6C1D2FA3B900F3D1DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40AB1C6B1D2FA3B900F3D1DB /* Assets.xcassets */; };
 		40AB1C6F1D2FA3B900F3D1DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40AB1C6D1D2FA3B900F3D1DB /* LaunchScreen.storyboard */; };
+		40B5529C1D47712F008B568C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40AB1C701D2FA3B900F3D1DB /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,7 +26,7 @@
 		40AB1C691D2FA3B900F3D1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		40AB1C6B1D2FA3B900F3D1DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		40AB1C6E1D2FA3B900F3D1DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		40AB1C701D2FA3B900F3D1DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40AB1C701D2FA3B900F3D1DB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +132,7 @@
 			files = (
 				40AB1C6F1D2FA3B900F3D1DB /* LaunchScreen.storyboard in Resources */,
 				40285EB71D379C05008EEFFD /* images.jpeg in Resources */,
+				40B5529C1D47712F008B568C /* Info.plist in Resources */,
 				40AB1C6C1D2FA3B900F3D1DB /* Assets.xcassets in Resources */,
 				40AB1C6A1D2FA3B900F3D1DB /* Main.storyboard in Resources */,
 				40285EB51D379BAA008EEFFD /* 518097-background-hd.jpg in Resources */,
